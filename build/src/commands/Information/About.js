@@ -13,11 +13,7 @@ export default class About extends OrasCommand {
                     embeds: [
                         this.client.utils
                             .embed()
-                            .setAuthor({
-                                name: `Information about Cloudz!!`,
-                                iconURL: message.client.user.displayAvatarURL(),
-                            })
-                            .setTitle(`About`)
+                            .setTitle(`Type *>help* for more`)
                             .setDescription(``)                            .setFooter({
                                 text: `Thanks For Selecting ${this.client.user.username}`,
                                 iconURL: this.client.user.displayAvatarURL({ dynamic: true }),
