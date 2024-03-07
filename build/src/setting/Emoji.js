@@ -1,12 +1,12 @@
 export default class OrasEmoji extends Object {
     constructor(client) {
         super();
-        this.tick = "✅";
-        this.cross = "❌";
+        this.tick = "<:tick_icons:1211517921864454214>";
+        this.cross = "<:cross_1:1211499430239543337>";
         this.playing = "🎶";
-        this.exclamation = "❗";
-        this.queue = "📋";
-        this.info = "❗";
+        this.exclamation = "<:icons_question:1211517978277838909>";
+        this.queue = "<:music_queue:1211517903132819496>";
+        this.info = "<:icons_question:1211517978277838909>";
         this.defSearch = "🔍";
         this.premium = "🌟";
         this.invite = "💌";
@@ -31,12 +31,12 @@ export default class OrasEmoji extends Object {
             user: "👤",
         };
         this.helpMenu = {
-            music: "🎶",
-            home: "🏠",
-            filters: "🎛️",
-            info: "❗",
-            utility: "⚙️",
-            allCommands: "📋",
+            music: "<:icons_music:1211517896673730571>",
+            home: "<:icons_home:1211517907297636382>",
+            filters: "<:music_queue:1211517903132819496>",
+            info: "<:icons_question:1211517978277838909>",
+            utility: "<:icons_settings:1211517899026726913>",
+            allCommands: "<:website_1:1211517914184949781>",
         };
         this.setup = {
             pause: "⏸️",
