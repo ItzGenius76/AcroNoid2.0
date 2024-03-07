@@ -14,11 +14,11 @@ export default class About extends OrasCommand {
                         this.client.utils
                             .embed()
                             .setAuthor({
-                                name: `${message.author.username}`,
-                                iconURL: message.author.displayAvatarURL(),
+                                name: `Information about Cloudz!!`,
+                                iconURL: message.client.user.displayAvatarURL(),
                             })
                             .setTitle(`About`)
-                            .setDescription(`Hey, It's **${client.user.username}** A Quality Music Bot With Breathtaking Features For Greater Experience While On Discord. **${client.user.username}** Is Making Music More Enhanced In Discord. Try **${client.user.username}** Now!**`)                            .setFooter({
+                            .setDescription(``)                            .setFooter({
                                 text: `Thanks For Selecting ${this.client.user.username}`,
                                 iconURL: this.client.user.displayAvatarURL({ dynamic: true }),
                             }),
