@@ -37,9 +37,9 @@ export default class OrasConfig extends Object {
         this.voteApi =
             "";
         this.webhooks = {
-            guildCreate: "",//put webhook
-            guildDelete: "",//put webhook
-            Cmds: "",//put webhook
+            guildCreate: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
+            guildDelete: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
+            Cmds: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
         };
         this.server = "https://discord.gg/codersplanet";
         this.botinvite = ``;//put you bot invite link
