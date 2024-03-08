@@ -17,7 +17,6 @@ export default class About extends OrasCommand {
                             .setDescription(`You can type >help for usable commands, if you can type >invite if you want this bot to be in your server\n\n<:owner_1:1212331707261390888> • **OWNERS**\nstorm_xd#0000\n<:command:1211358351234179092> • **DEVELOPERS**\nDhruv_xd#0000`)                            .setFooter({
                                 text: `Thanks For Selecting ${this.client.user.username}`,
                                 iconURL: this.client.user.displayAvatarURL({ dynamic: true }),
-                            .setThumbnail(this.client.user.displayAvatarURL());
                             }),
                     ],
                     components: [
