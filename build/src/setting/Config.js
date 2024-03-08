@@ -46,7 +46,7 @@ export default class OrasConfig extends Object {
         this.spotiId = "6c31645ffb004ab8b44d06f7b96d1b66";
         this.spotiSecret = "3618fdc0b4824cfd91a8d425dac32987";
         this.owners = [""];//put you discord id
-        this.color = "#2b2d31";
+        this.color = "#880808";
         this.supportId = ""; //Server Id
         this.spotiNodes = [
             {
