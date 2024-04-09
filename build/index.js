@@ -5,6 +5,7 @@ import {
   messageType,
 } from "discord-hybrid-sharding";
 import OrasConfig from "./src/setting/Config.js";
+const Config = new OrasConfig();
 import http from "http";
 
 const server = http.createServer((req, res) => {
@@ -19,17 +20,17 @@ const server = http.createServer((req, res) => {
         </body>
       </html>`);
 });
-
-// If the port is underused, change the port
+// If the port is under used change the port
 server.listen(3000, () => {
   console.log("Server Online because of Axo Coder ✅!!");
 });
+
 
 const manager = new ClusterManager("./build/src/oras.js", {
   totalClusters: "auto",
   totalShards: "auto",
   respawn: true,
-  token: process.env.TOKEN, // Access token from environment variable
+  token: Config.token,
   shardsPerClusters: 7,
   mode: "process",
   restarts: { max: 5, interval: 60000 * 60 },
