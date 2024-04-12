@@ -19,7 +19,7 @@ export default class OrasConfig extends Object {
         this.token =
             "";
         this.botid = ""
-        this.prefix = "+";
+        this.prefix = ">";
         this.nodes = [
             {
                 name: `Kronix`,
@@ -37,16 +37,16 @@ export default class OrasConfig extends Object {
         this.voteApi =
             "";
         this.webhooks = {
-            guildCreate: "",//put webhook
-            guildDelete: "",//put webhook
-            Cmds: "",//put webhook
+            guildCreate: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
+            guildDelete: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
+            Cmds: "https://discord.com/api/webhooks/1214847946428911676/-Wq2p66aXHxpXvdxQl7L9_Lv4kE0kStIN0PElfZPWEhUCFlq26UZHsC0ISNdOOQFoYaD",//put webhook
         };
         this.server = "https://discord.gg/codersplanet";
         this.botinvite = ``;//put you bot invite link
         this.spotiId = "6c31645ffb004ab8b44d06f7b96d1b66";
         this.spotiSecret = "3618fdc0b4824cfd91a8d425dac32987";
         this.owners = [""];//put you discord id
-        this.color = "#2b2d31";
+        this.color = "#880808";
         this.supportId = ""; //Server Id
         this.spotiNodes = [
             {

@@ -1,13 +1,13 @@
 export default class OrasEmoji extends Object {
     constructor(client) {
         super();
-        this.tick = "✅";
-        this.cross = "❌";
-        this.playing = "🎶";
-        this.exclamation = "❗";
-        this.queue = "📋";
-        this.info = "❗";
-        this.defSearch = "🔍";
+        this.tick = "<:tick_icons:1211517921864454214>";
+        this.cross = "<:cross_1:1211499430239543337>";
+        this.playing = "<a:music_1:1211354430637604915>";
+        this.exclamation = "<:icons_question:1211517978277838909>";
+        this.queue = "<:music_queue:1211517903132819496>";
+        this.info = "<:icons_question:1211517978277838909>";
+        this.defSearch = "<:IconSearch:1211517926226534421>";
         this.premium = "🌟";
         this.invite = "💌";
         this.support = "🤝";
@@ -28,15 +28,15 @@ export default class OrasEmoji extends Object {
             mod: "🛡️",
             staff: "👥",
             supporter: "🌟",
-            user: "👤",
+            user: "<:member:1215181668969877525>",
         };
         this.helpMenu = {
-            music: "🎶",
-            home: "🏠",
-            filters: "🎛️",
-            info: "❗",
-            utility: "⚙️",
-            allCommands: "📋",
+            music: "<:icons_music:1211517896673730571>",
+            home: "<:icons_home:1211517907297636382>",
+            filters: "<:music_queue:1211517903132819496>",
+            info: "<:icons_info:1211517904894558328>",
+            utility: "<:icons_settings:1211517899026726913>",
+            allCommands: "<:website_1:1211517914184949781>",
         };
         this.setup = {
             pause: "⏸️",
@@ -44,24 +44,24 @@ export default class OrasEmoji extends Object {
             skip: "⏭️",
             previous: "⏮️",
             shuffle: "🔀",
-            author: "👤",
+            author: "<:member:1215181668969877525>",
             nowPlaying: "🎶",
-            requester: "👤",
-            duration: "⌛",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
             stop: "⏹️",
             loop: "🔁",
             volLow: "🔉",
             volHigh: "🔊",
             fav: "⭐",
             autoplay: "🔄",
-            filters: "🎛️",
+            filters: "<:music_queue:1211517903132819496>",
         };
         this.orasNew = {
             emote: "🎶",
             nowPlaying: "🎶",
-            requester: "👤",
-            duration: "⌛",
-            author: "👤",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
+            author: "<:member:1215181668969877525>",
             pause: "⏸️",
             resume: "▶️",
             skip: "⏭️",
@@ -71,12 +71,12 @@ export default class OrasEmoji extends Object {
         };
         this.spotify = {
             emote: "🎶",
-            filters: "",
+            filters: "<:music_queue:1211517903132819496>",
             nowPlaying: "🎵",
-            requester: "👤",
-            duration: "⌛",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
             pause: "⏸️",
-            author: "👤",
+            author: "<:member:1215181668969877525>",
             resume: "▶️",
             stop: "⏹️",
             loop: "🔁",
@@ -91,10 +91,10 @@ export default class OrasEmoji extends Object {
         this.special = {
             emote: "🎶",
             nowPlaying: "🎶",
-            requester: "👤",
-            duration: "⌛",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
             pause: "⏸️",
-            author: "👤",
+            author: "<:member:1215181668969877525>",
             resume: "▶️",
             stop: "⏹️",
             loop: "🔁",
@@ -108,19 +108,19 @@ export default class OrasEmoji extends Object {
         };
         this.noButtons = {
             emote: "🎶",
-            nowPlaying: "👤",
-            author: "👤",
-            requester: "👤",
-            duration: "⌛",
-            filters: "",
+            nowPlaying: "<:member:1215181668969877525>",
+            author: "<:member:1215181668969877525>",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
+            filters: "<:music_queue:1211517903132819496>",
         };
         this.simple = {
             emote: "🎶",
-            nowPlaying: "👤",
-            requester: "👤",
-            author: "👤",
-            duration: "⌛",
-            filters: "",
+            nowPlaying: "<:member:1215181668969877525>",
+            requester: "<:member:1215181668969877525>",
+            author: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
+            filters: "<:music_queue:1211517903132819496>",
             pause: "⏸️",
             resume: "▶️",
             stop: "⏹️",
@@ -129,10 +129,10 @@ export default class OrasEmoji extends Object {
         };
         this.oldStyle = {
             emote: "🎶",
-            nowPlaying: "👤",
-            author: "👤",
-            requester: "👤",
-            duration: "⌛",
+            nowPlaying: "<:member:1215181668969877525>",
+            author: "<:member:1215181668969877525>",
+            requester: "<:member:1215181668969877525>",
+            duration: "<a:duration:1215180499413368862>",
         };
     }
 }
